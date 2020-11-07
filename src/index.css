@@ -1,0 +1,219 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Josef;
+  scroll-behavior: smooth;
+}
+:root{
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+@font-face{
+  src: url(font/MerriweatherSans-VariableFont_wght.ttf);
+  font-family: Josef;
+}
+
+body{
+  background-image: url(./background.jpg);
+  background-position: top center;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem;
+  background-color: rgba(29, 29, 29, 0.493);
+  color: whitesmoke;
+  width: 100%;
+}
+#links{
+  display: flex;
+  flex-direction: row;
+}
+#links a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.7rem;
+  margin-right: 15px;
+}
+
+button{
+  font-size: 1.2rem;
+  margin-right: 20px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  outline: none;
+  transition: .3s;
+  border: none;
+ 
+}
+#bottom-button{
+  font-size: 2rem;
+  background-color:rgb(31, 31, 31);
+  
+  color: whitesmoke;
+  width: 50%;
+  margin: 15px auto 0px auto;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem auto;
+  background-color: #f2e8cfbb;
+  padding: 2rem;
+  border: .5px solid rgb(68, 68, 68);
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0px 3px 13px 2px rgba(0,0,0,0.91); 
+  box-shadow: 0px 3px 13px 2px rgba(0,0,0,0.91);
+}
+
+#main-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.text-block{
+  margin-top: 10px;
+}
+h2{
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+#img{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(112, 61, 61);
+  background-position: top center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#ing-desc{
+  display: flex;
+  flex-direction: row;
+}
+.instructions{
+  margin-top: 15px;
+}
+
+/* HOVER STYLES -----------------------------*/
+
+.fa-facebook:hover{
+  color: rgb(0, 88, 189);
+}
+.fa-instagram:hover{
+  color: rgb(164, 43, 235);
+}
+.fa-twitter:hover{
+  color: rgb(3, 172, 214);
+}
+#top-button:hover{
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  transition: .3s;
+  color: whitesmoke;
+  cursor: pointer;
+}
+button:active{
+  background-color: rgb(248, 121, 121);
+}
+#bottom-button:hover{
+  background-color: #666666;
+  
+  transition: .3s;
+  
+  cursor: pointer;
+}
+
+/* HOVER STYLES---------------------------------------------------- */
+
+/* FOR TABLETS */
+@media screen and (max-width: 900px) {
+   
+  :root{
+    font-size: 14px;
+  }
+
+  main{
+      width: 85%;
+      
+  }
+
+  #main-img{
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+
+  }
+  ul{
+    text-align: left;
+    margin-top: 5px;
+  }
+  #bottom-button{
+    width: 75%;
+  }
+  #img{
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+
+}
+
+/* FOR PHONES */
+@media screen and (max-width: 600px) {
+   
+  :root{
+    font-size: 14px;
+  }
+
+  main{
+      width: 85%;
+      
+  }
+
+  #main-img{
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+
+  }
+
+  #social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  ul{
+    text-align: left;
+    margin-top: 5px;
+  }
+  #img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+  }
+  #top-button{
+    font-size: 1.4rem;
+    height: 80px;
+  }
+  #bottom-button{
+    width: 75%;
+  }
+  #img{
+    margin-top: 0px;
+  }
+
+}
