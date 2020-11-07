@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/What-To-Eat/static/css/main.51c8a3b6.chunk.css",
+    "main.js": "/What-To-Eat/static/js/main.3bb5f849.chunk.js",
+    "main.js.map": "/What-To-Eat/static/js/main.3bb5f849.chunk.js.map",
+    "runtime-main.js": "/What-To-Eat/static/js/runtime-main.a715e5e2.js",
+    "runtime-main.js.map": "/What-To-Eat/static/js/runtime-main.a715e5e2.js.map",
+    "static/js/2.89c854ed.chunk.js": "/What-To-Eat/static/js/2.89c854ed.chunk.js",
+    "static/js/2.89c854ed.chunk.js.map": "/What-To-Eat/static/js/2.89c854ed.chunk.js.map",
+    "index.html": "/What-To-Eat/index.html",
+    "static/css/main.51c8a3b6.chunk.css.map": "/What-To-Eat/static/css/main.51c8a3b6.chunk.css.map",
+    "static/js/2.89c854ed.chunk.js.LICENSE.txt": "/What-To-Eat/static/js/2.89c854ed.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/What-To-Eat/static/media/background.2f9b784a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a715e5e2.js",
+    "static/js/2.89c854ed.chunk.js",
+    "static/css/main.51c8a3b6.chunk.css",
+    "static/js/main.3bb5f849.chunk.js"
+  ]
+}
