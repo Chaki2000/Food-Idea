@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Food-Idea/static/css/main.5262391f.chunk.css",
+    "main.js": "/Food-Idea/static/js/main.3bb5f849.chunk.js",
+    "main.js.map": "/Food-Idea/static/js/main.3bb5f849.chunk.js.map",
+    "runtime-main.js": "/Food-Idea/static/js/runtime-main.df1ff4ef.js",
+    "runtime-main.js.map": "/Food-Idea/static/js/runtime-main.df1ff4ef.js.map",
+    "static/js/2.89c854ed.chunk.js": "/Food-Idea/static/js/2.89c854ed.chunk.js",
+    "static/js/2.89c854ed.chunk.js.map": "/Food-Idea/static/js/2.89c854ed.chunk.js.map",
+    "index.html": "/Food-Idea/index.html",
+    "static/css/main.5262391f.chunk.css.map": "/Food-Idea/static/css/main.5262391f.chunk.css.map",
+    "static/js/2.89c854ed.chunk.js.LICENSE.txt": "/Food-Idea/static/js/2.89c854ed.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Food-Idea/static/media/background.2f9b784a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df1ff4ef.js",
+    "static/js/2.89c854ed.chunk.js",
+    "static/css/main.5262391f.chunk.css",
+    "static/js/main.3bb5f849.chunk.js"
+  ]
+}
